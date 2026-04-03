@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CACC | Christ Ambassadors Community Church</title>
+  <meta name="description" content="Welcome to Christ Ambassadors Community Church. Join our welcoming community for Sunday services, missions, and fellowship.">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="CACC Logo" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-abbr">CACC</span>
+          <span class="logo-full">Christ Ambassadors Community Church</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#vision" class="nav-link">Vision</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#missions" class="nav-link">Missions</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+        <li><a href="#giving" class="nav-link">Giving</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="images/logo.png" alt="CACC Logo" class="hero-logo animate-fade-in">
+      <h1 class="animate-slide-up">Welcome to CACC</h1>
+      <p class="hero-subtitle animate-slide-up delay-1">Christ Ambassadors Community Church</p>
+      <p class="hero-tagline animate-slide-up delay-2">A Place of Faith, Hope, and Love</p>
+      <div class="hero-buttons animate-slide-up delay-3">
+        <a href="#services" class="btn btn-primary">Join Us Sunday</a>
+        <a href="#vision" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section class="section vision" id="vision">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Our Vision</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Spreading the Gospel, Building Community, Transforming Lives</p>
+      </div>
+      <div class="vision-content animate-on-scroll">
+        <p class="vision-statement">
+          At Christ Ambassadors Community Church, we are called to be ambassadors of Christ in our community and beyond. 
+          We believe in the transformative power of God's love and are committed to sharing His message of hope, 
+          redemption, and eternal life with all who seek Him.
+        </p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card animate-on-scroll">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M2 12h20M12 2l4 4M12 2l-4 4"/>
+            </svg>
+          </div>
+          <h3>Faith</h3>
+          <p>Grounded in Scripture, growing in our relationship with Christ</p>
+        </div>
+        <div class="value-card animate-on-scroll delay-1">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Community</h3>
+          <p>Building meaningful relationships and supporting one another</p>
+        </div>
+        <div class="value-card animate-on-scroll delay-2">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3>Service</h3>
+          <p>Serving others with love, compassion, and humility</p>
+        </div>
+        <div class="value-card animate-on-scroll delay-3">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+              <path d="M2 12h20"/>
+            </svg>
+          </div>
+          <h3>Outreach</h3>
+          <p>Reaching the world with the Gospel of Jesus Christ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Join Us for Worship</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Experience the presence of God in our services</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3>Sunday Service</h3>
+          <p class="service-time">9:00 AM - 11:30 AM</p>
+          <p class="service-desc">Main worship service with praise, prayer, and the Word</p>
+        </div>
+        <div class="service-card animate-on-scroll delay-1">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <h3>Bible Study</h3>
+          <p class="service-time">Wednesday 6:30 PM</p>
+          <p class="service-desc">Deep dive into Scripture and fellowship</p>
+        </div>
+        <div class="service-card animate-on-scroll delay-2">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Youth Service</h3>
+          <p class="service-time">Friday 5:00 PM</p>
+          <p class="service-desc">Engaging worship for the next generation</p>
+        </div>
+      </div>
+
+      <!-- Live Stream Section -->
+      <div class="livestream-section animate-on-scroll">
+        <h3>Watch Live</h3>
+        <p>Join us online every Sunday</p>
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" 
+            title="CACC Live Stream"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Sermon Playlist -->
+      <div class="sermon-section animate-on-scroll">
+        <h3>Past Sermons</h3>
+        <p>Catch up on messages you may have missed</p>
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID" 
+            title="CACC Sermon Playlist"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripture Section -->
+  <section class="section scripture">
+    <div class="container">
+      <div class="scripture-slider" id="scriptureSlider">
+        <div class="scripture-slide active">
+          <blockquote>
+            "Therefore, we are ambassadors for Christ, God making his appeal through us."
+          </blockquote>
+          <cite>2 Corinthians 5:20</cite>
+        </div>
+        <div class="scripture-slide">
+          <blockquote>
+            "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+          </blockquote>
+          <cite>John 3:16</cite>
+        </div>
+        <div class="scripture-slide">
+          <blockquote>
+            "I can do all things through Christ who strengthens me."
+          </blockquote>
+          <cite>Philippians 4:13</cite>
+        </div>
+        <div class="scripture-slide">
+          <blockquote>
+            "Trust in the Lord with all your heart and lean not on your own understanding."
+          </blockquote>
+          <cite>Proverbs 3:5</cite>
+        </div>
+      </div>
+      <div class="scripture-dots" id="scriptureDots"></div>
+    </div>
+  </section>
+
+  <!-- Missions Section -->
+  <section class="section missions" id="missions">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Our Missions</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Making a difference in our community and around the world</p>
+      </div>
+      <div class="missions-grid">
+        <div class="mission-card animate-on-scroll">
+          <div class="mission-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="mission-content">
+            <h3>Community Outreach</h3>
+            <p>Serving our local community through food drives, clothing donations, and support programs for those in need.</p>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="mission-card animate-on-scroll delay-1">
+          <div class="mission-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+              <path d="M2 12h20"/>
+            </svg>
+          </div>
+          <div class="mission-content">
+            <h3>Global Missions</h3>
+            <p>Supporting missionaries and ministry work across Africa, Asia, and beyond to spread the Gospel.</p>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="mission-card animate-on-scroll delay-2">
+          <div class="mission-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="mission-content">
+            <h3>Youth Development</h3>
+            <p>Investing in the next generation through mentorship, education support, and youth programs.</p>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="mission-card animate-on-scroll delay-3">
+          <div class="mission-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <div class="mission-content">
+            <h3>Care Ministry</h3>
+            <p>Providing pastoral care, hospital visits, counseling, and support during life&apos;s challenges.</p>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section class="section location" id="location">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Find Us</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">We would love to meet you in person</p>
+      </div>
+      <div class="location-grid">
+        <div class="location-info animate-on-scroll">
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Address</h4>
+              <p>123 Church Street<br>City, Province 1234<br>South Africa</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Phone</h4>
+              <p>+27 12 345 6789</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Email</h4>
+              <p>info@cacc.org.za</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4>Service Times</h4>
+              <p>Sunday: 9:00 AM - 11:30 AM<br>Wednesday: 6:30 PM<br>Friday Youth: 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="location-map animate-on-scroll delay-1">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d28.0!3d-26.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDAw'00.0IlMgMjjCsDAwJzAwLjAiRQ!5e0!3m2!1sen!2sza!4v1234567890" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="CACC Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Giving Section -->
+  <section class="section giving" id="giving">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Give</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Your generosity helps us continue God&apos;s work</p>
+      </div>
+      <div class="giving-content animate-on-scroll">
+        <div class="giving-verse">
+          <blockquote>
+            "Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver."
+          </blockquote>
+          <cite>2 Corinthians 9:7</cite>
+        </div>
+        <div class="banking-details">
+          <h3>Banking Details</h3>
+          <div class="bank-info">
+            <div class="bank-row">
+              <span class="bank-label">Bank:</span>
+              <span class="bank-value">First National Bank (FNB)</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Account Name:</span>
+              <span class="bank-value">Christ Ambassadors Community Church</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Account Number:</span>
+              <span class="bank-value">62000000000</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Branch Code:</span>
+              <span class="bank-value">250655</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label">Reference:</span>
+              <span class="bank-value">Your Name + Tithe/Offering</span>
+            </div>
+          </div>
+        </div>
+        <div class="giving-options">
+          <p>Other giving options coming soon</p>
+          <button class="btn btn-primary" disabled>Online Giving (Coming Soon)</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="CACC Logo" class="footer-logo">
+          <h3>Christ Ambassadors Community Church</h3>
+          <p>Ambassadors for Christ in our community and beyond.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#missions">Missions</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#giving">Giving</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h4>Service Times</h4>
+          <ul>
+            <li>Sunday: 9:00 AM - 11:30 AM</li>
+            <li>Wednesday Bible Study: 6:30 PM</li>
+            <li>Friday Youth: 5:00 PM</li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>123 Church Street<br>City, Province 1234</p>
+          <p>+27 12 345 6789</p>
+          <p>info@cacc.org.za</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="white"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Christ Ambassadors Community Church. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
